@@ -1,0 +1,23 @@
+.home-page-container {
+  padding: 40px 80px;
+}
+
+.top-stories-card-container,
+.trending-card-container {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr) minmax(
+      120px,
+      1fr
+    );
+  gap: 20px;
+}
+
+.trending-card-container {
+  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr);
+}
+
+.view-more-btn-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

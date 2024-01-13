@@ -1,0 +1,38 @@
+.carousel-slide {
+  height: 250px;
+  padding: 10px;
+}
+
+.carousel-slide-content {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-slide-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-slide-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 90;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-slide-destination-name.MuiTypography-root {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: 700;
+}

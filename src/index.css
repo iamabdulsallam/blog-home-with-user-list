@@ -1,0 +1,70 @@
+:root {
+  --color-primary: "black";
+  --color-secondary: "red";
+
+  --btn-primary-bg-color: "black";
+  --btn-primary-text-color: "white";
+}
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.app-container {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.btn.MuiButtonBase-root,
+.btn.MuiButtonBase-root:focus,
+.btn.MuiButtonBase-root:active,
+.btn.MuiButtonBase-root:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.btn-black.MuiButtonBase-root,
+.btn-black.MuiButtonBase-root:focus,
+.btn-black.MuiButtonBase-root:active,
+.btn-black.MuiButtonBase-root:hover {
+  background-color: black;
+}
+.btn-light-blue.MuiButtonBase-root,
+.btn-light-blue.MuiButtonBase-root:focus,
+.btn-light-blue.MuiButtonBase-root:active,
+.btn-light-blue.MuiButtonBase-root:hover {
+  background-color: rgb(231, 249, 254);
+  color: rgb(0, 123, 195);
+  box-shadow: none;
+  padding: 6px 10px;
+  height: 30px;
+}
+.btn-outlined.MuiButtonBase-root,
+.btn-outlined.MuiButtonBase-root:focus,
+.btn-outlined.MuiButtonBase-root:active,
+.btn-outlined.MuiButtonBase-root:hover {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  height: 40px;
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 8px 24px;
+}
+.btn-outlined.MuiButtonBase-root:active,
+.btn-outlined.MuiButtonBase-root:hover {
+  background-color: rgb(243, 240, 240);
+}
+
+.active {
+  color: black !important;
+  text-decoration: underline !important;
+}

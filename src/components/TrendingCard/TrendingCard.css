@@ -1,0 +1,70 @@
+.trending-card.MuiPaper-root {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: none;
+}
+
+.trending-card-content.MuiCardContent-root {
+  padding: 0;
+  display: flex;
+}
+.trending-card-content.MuiCardContent-root:last-child {
+  padding: 0 !important;
+}
+
+.trending-card-img-wrapper {
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  width: 160px;
+}
+
+.trending-card-img-wrapper a {
+  display: flex;
+  flex: 1;
+}
+.trending-card-img-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.trending-card-typo-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 8px 24px 8px 24px;
+}
+.trending-card-typo-wrapper button {
+  align-self: flex-start;
+}
+
+.trending-card-typo-wrapper h5.MuiTypography-root {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 12px 0;
+  line-height: unset;
+}
+.trending-card-user-info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+}
+.trending-card-user-info-wrapper .MuiAvatar-root {
+  height: 32px;
+  width: 32px;
+}
+.trending-card-user-info-wrapper p:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: unset;
+}
+.trending-card-user-info-wrapper p:last-child {
+  font-size: 13px;
+  line-height: unset;
+}

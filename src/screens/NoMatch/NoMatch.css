@@ -1,0 +1,16 @@
+.no-match-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+.no-match-container img {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.no-match-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
