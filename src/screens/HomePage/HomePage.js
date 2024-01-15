@@ -1,12 +1,12 @@
 import React from "react";
-import Section from "../../components/Section/Section";
-import TopStoriesCard from "../../components/TopStoriesCard/TopStoriesCard";
+import Section from "components/Section/Section";
+import TopStoriesCard from "components/TopStoriesCard/TopStoriesCard";
 import { Box, Button } from "@mui/material";
-import { topStories } from "../../Constants/TopStories";
-import { trending } from "../../Constants/Trending";
-import { topDestination } from "../../Constants/TopDestination";
-import TrendingCard from "../../components/TrendingCard/TrendingCard";
-import TopDestinationCarousel from "../../components/TopDestinationCarousel/TopDestinationCarousel";
+import { topStories } from "Constants/TopStories";
+import { trending } from "Constants/Trending";
+import { topDestination } from "Constants/TopDestination";
+import TrendingCard from "components/TrendingCard/TrendingCard";
+import TopDestinationCarousel from "components/TopDestinationCarousel/TopDestinationCarousel";
 
 import "./HomePage.css";
 

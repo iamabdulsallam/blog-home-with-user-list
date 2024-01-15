@@ -4,6 +4,7 @@ import HomePage from "./screens/HomePage/HomePage";
 import { Route, Routes } from "react-router-dom";
 import NoMatch from "./screens/NoMatch/NoMatch";
 import MyArticles from "./screens/MyArticles";
+import Users from "./screens/Users/Users";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<HomePage />} />
           <Route path="/my-articles" element={<MyArticles />} />
+          <Route path="/users" element={<Users />} />
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Box>
