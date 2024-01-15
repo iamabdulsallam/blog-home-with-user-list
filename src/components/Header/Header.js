@@ -14,6 +14,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const navItems = [
   { route: "/", title: "Home" },
   { route: "/my-articles", title: "My Articles" },
+  { route: "/users", title: "Users" },
 ];
 const Header = () => {
   const location = useLocation();
